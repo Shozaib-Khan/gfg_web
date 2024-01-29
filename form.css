@@ -1,0 +1,1731 @@
+.design-child {
+    position: absolute;
+    top: -33px;
+    left: 1237px;
+    width: 268px;
+    height: 713px;
+    object-fit: contain;
+}
+.geeks {
+    background: linear-gradient(99.98deg, #1dff00, #8fff00 52.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.community-for-geeks-container {
+    position: absolute;
+    top: 100px;
+    left: -17px;
+    line-height: 99.6%;
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 610px;
+    filter: drop-shadow(5px 4px 22.5px rgba(0, 0, 0, 0.25) inset);
+}
+.pen-under-digital {
+    position: absolute;
+    top: 195px;
+    left: 146px;
+    width: 318px;
+    height: 22px;
+}
+.hero-text {
+    width: 610px;
+    position: relative;
+    height: 369px;
+    font-family: 'Darker Grotesque';
+}
+.connect-in-person-find {
+    width: 610px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    height: 75px;
+    flex-shrink: 0;
+}
+.join-community {
+    position: relative;
+}
+.cta {
+    border-radius: 40px;
+    background-color: #000;
+    box-shadow: 8px 7px 9.3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px 48px;
+    font-size: 24px;
+    color: #fff;
+}
+.hero-text-and-cta {
+    position: absolute;
+    top: 221px;
+    left: 709px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 40px;
+    text-align: right;
+    font-size: 95px;
+    font-family: Manrope;
+}
+.watch-and-introduction {
+    position: absolute;
+    top: 1179px;
+    left: 469px;
+    font-weight: 300;
+    font-family: Manrope;
+    text-align: center;
+    display: inline-block;
+    width: 513px;
+}
+.hero-section-image-child {
+    position: absolute;
+    top: -8.2px;
+    left: 2.25px;
+    width: 607.05px;
+    height: 557.65px;
+    object-fit: contain;
+}
+.hero-section-image-item {
+    position: absolute;
+    top: 242px;
+    left: 600.3px;
+    border-radius: 50%;
+    background-color: #000;
+    width: 14.4px;
+    height: 14.4px;
+}
+.her-section-image-1 {
+    position: absolute;
+    top: 103.4px;
+    left: -18px;
+    width: 198px;
+    height: 198px;
+    object-fit: cover;
+}
+.her-seconf-image-2-child {
+    position: absolute;
+    top: 159.3px;
+    left: 76.5px;
+    border-radius: 18px;
+    background-color: #e3f2df;
+    box-shadow: 9px 9px 0px #000;
+    width: 270px;
+    height: 198px;
+}
+.mask-group-icon {
+    position: absolute;
+    top: 159.3px;
+    left: 76.5px;
+    width: 270px;
+    height: 198px;
+}
+.studio-shot-satisfied-female-w {
+    position: absolute;
+    top: 97.2px;
+    left: 140.4px;
+    width: 196.2px;
+    height: 253.8px;
+}
+.vuesaxlinearcode-circle-icon {
+    width: 21.6px;
+    position: relative;
+    height: 21.6px;
+}
+.hey-im-a-cloud-dev-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.connect-board {
+    position: absolute;
+    top: 332.1px;
+    left: 28.8px;
+    border-radius: 18px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10.799999237060547px 21.599998474121094px;
+    gap: 14.4px;
+}
+.her-seconf-image-2 {
+    position: absolute;
+    top: 170.9px;
+    left: 198.9px;
+    width: 441.9px;
+    height: 393.3px;
+}
+.hero-section-image-inner {
+    position: absolute;
+    top: 471.5px;
+    left: 63.9px;
+    border-radius: 50%;
+    background-color: #000;
+    width: 14.4px;
+    height: 14.4px;
+}
+.connect-board1 {
+    position: absolute;
+    top: 269px;
+    left: 26.1px;
+    border-radius: 18px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10.799999237060547px 21.599998474121094px;
+    gap: 14.4px;
+}
+.her-section-image-3-child {
+    position: absolute;
+    top: -16.2px;
+    left: 18.9px;
+    border-radius: 18px;
+    background-color: #f2e4df;
+    box-shadow: 9px 9px 0px #000;
+    width: 198px;
+    height: 231.3px;
+}
+.mask-group-icon1 {
+    position: absolute;
+    top: -16.2px;
+    left: 18.9px;
+    width: 198px;
+    height: 231.3px;
+}
+.young-african-american-man-wit {
+    position: absolute;
+    top: 3.6px;
+    left: 26.1px;
+    width: 198px;
+    height: 186.3px;
+}
+.connect-board2 {
+    position: absolute;
+    top: 189.7px;
+    left: -72.4px;
+    border-radius: 18px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10.799999237060547px 21.599998474121094px;
+    gap: 14.4px;
+}
+.her-section-image-3 {
+    position: absolute;
+    top: -66.7px;
+    left: 338.4px;
+    width: 198px;
+    height: 198px;
+}
+.ellipse-div {
+    position: absolute;
+    top: -15.4px;
+    left: 200.7px;
+    border-radius: 50%;
+    background-color: #000;
+    width: 14.4px;
+    height: 14.4px;
+}
+.frame-div {
+    position: absolute;
+    top: 476.2px;
+    left: 402.6px;
+    width: 263px;
+    height: 764px;
+    overflow: hidden;
+}
+.hero-section-image {
+    position: absolute;
+    top: 274px;
+    left: 76px;
+    width: 673.2px;
+    height: 552.37px;
+    font-size: 12.6px;
+    font-family: Manrope;
+}
+.into-video-icon {
+    position: absolute;
+    top: 1297px;
+    left: 120px;
+    width: 1200px;
+    height: 448px;
+    object-fit: contain;
+}
+.welcome-to {
+    font-weight: 500;
+}
+.welcome-to-geeksforgeeks-container {
+    position: absolute;
+    top: 0px;
+    left: -72px;
+    line-height: 110.6%;
+}
+.welcome-to-nomadi-child {
+    position: absolute;
+    top: 54px;
+    left: 240px;
+    width: 125px;
+    height: 12px;
+}
+.welcome-to-nomadi {
+    position: absolute;
+    top: 1085px;
+    left: 534px;
+    width: 373px;
+    height: 66px;
+    font-size: 50px;
+}
+.design-item {
+    position: absolute;
+    top: 2071px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 1008px;
+}
+.gfg {
+    color: #184235;
+}
+.what-happens-at-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 110.6%;
+    font-weight: 500;
+}
+.what-happens-at-nomadi-child {
+    position: absolute;
+    top: 52px;
+    left: 333px;
+    width: 79px;
+    height: 7px;
+}
+.what-happens-at-nomadi {
+    position: absolute;
+    top: 2173px;
+    left: 487px;
+    width: 467px;
+    height: 60.24px;
+    font-size: 50px;
+}
+.design-inner {
+    position: absolute;
+    top: 2303px;
+    left: -80px;
+    width: 1560px;
+    height: 575.4px;
+    display: none;
+}
+.we-are-geekies {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 110.6%;
+    font-weight: 500;
+    display: inline-block;
+    width: 322px;
+    height: 58px;
+}
+.we-are-nomadies-child {
+    position: absolute;
+    top: 52px;
+    left: 149.23px;
+    width: 169.52px;
+    height: 5.8px;
+}
+.we-are-nomadies {
+    position: absolute;
+    top: 3217px;
+    left: 559px;
+    width: 322px;
+    height: 58px;
+    font-size: 50px;
+}
+.subscribe {
+    position: absolute;
+    top: 5894px;
+    left: 627px;
+    font-size: 50px;
+    line-height: 110.6%;
+    font-weight: 500;
+}
+.a-diverse-group {
+    position: absolute;
+    top: 3313px;
+    left: 323px;
+    font-weight: 300;
+    font-family: Inter;
+    text-align: center;
+    display: inline-block;
+    width: 814px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 59px;
+    height: 59px;
+}
+.div1 {
+    position: absolute;
+    top: 8px;
+    left: 24px;
+    font-weight: 500;
+    display: none;
+}
+.vuesaxlinearbook-icon {
+    position: absolute;
+    top: 18px;
+    left: 17.5px;
+    width: 24px;
+    height: 24px;
+}
+.ellipse-parent {
+    width: 59px;
+    position: relative;
+    height: 59px;
+}
+.masterclasses {
+    position: relative;
+    font-weight: 500;
+    text-align: left;
+}
+.group-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.volunteer-to-teach {
+    width: 350px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Inter;
+    display: inline-block;
+}
+.div {
+    position: absolute;
+    top: 2310px;
+    left: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.div3 {
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    font-weight: 500;
+    display: none;
+}
+.div2 {
+    position: absolute;
+    top: 2310px;
+    left: 539px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.vuesaxlinearpeople-icon {
+    position: absolute;
+    top: 19px;
+    left: 17.5px;
+    width: 24px;
+    height: 24px;
+}
+.div4 {
+    position: absolute;
+    top: 2310px;
+    left: 942px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.div7 {
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    font-weight: 500;
+}
+.div6 {
+    position: absolute;
+    top: 2670px;
+    left: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.div8 {
+    position: absolute;
+    top: 2670px;
+    left: 539px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.div10 {
+    position: absolute;
+    top: 2670px;
+    left: 942px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    text-align: center;
+    font-size: 32px;
+}
+.profile-image-icon {
+    width: 60px;
+    position: relative;
+    height: 60px;
+    object-fit: cover;
+}
+.kenneth-timothy {
+    position: relative;
+    font-weight: 500;
+}
+.full-stack-developer {
+    position: relative;
+    font-weight: 300;
+}
+.job-description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+.text-tag1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+.vuesaxboldlocation-icon {
+    width: 9.6px;
+    position: relative;
+    height: 9.6px;
+}
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: 10px;
+    color: #adadad;
+}
+.text-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.user-profile {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile1 {
+    position: absolute;
+    top: 2px;
+    left: 339px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile2 {
+    position: absolute;
+    top: 1px;
+    left: 656px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile3 {
+    position: absolute;
+    top: 0px;
+    left: 995px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile4 {
+    position: absolute;
+    top: 0px;
+    left: 1334px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile5 {
+    position: absolute;
+    top: 0px;
+    left: 1673px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile6 {
+    position: absolute;
+    top: 0px;
+    left: 2012px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile7 {
+    position: absolute;
+    top: 0px;
+    left: 2351px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px 42px;
+    gap: 28px;
+}
+.user-profile-parent {
+    position: absolute;
+    top: 3450px;
+    left: 10px;
+    width: 1441px;
+    height: 136px;
+    overflow-x: auto;
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+}
+.profile-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 285px;
+    height: 303px;
+}
+.mask-group-icon2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 285px;
+    height: 193px;
+    object-fit: cover;
+}
+.text-tag17 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.text-tag16 {
+    position: absolute;
+    top: 211px;
+    left: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.profile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 285px;
+    height: 303px;
+}
+.mask-group-icon3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 285px;
+    height: 193px;
+    object-fit: contain;
+}
+.profile1 {
+    position: absolute;
+    top: 0px;
+    left: 305px;
+    width: 285px;
+    height: 303px;
+}
+.profile2 {
+    position: absolute;
+    top: 0px;
+    left: 610px;
+    width: 285px;
+    height: 303px;
+}
+.profile3 {
+    position: absolute;
+    top: 0px;
+    left: 915px;
+    width: 285px;
+    height: 303px;
+}
+.profile4 {
+    position: absolute;
+    top: 0px;
+    left: 1220px;
+    width: 285px;
+    height: 303px;
+}
+.profile-parent {
+    position: absolute;
+    top: 3470px;
+    left: 31px;
+    width: 1320px;
+    height: 303px;
+    overflow-x: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+}
+.become-a-geeky-today-wrapper {
+    position: absolute;
+    top: 3873px;
+    left: 562px;
+    border-radius: 50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 48px;
+    text-align: right;
+    font-size: 20px;
+    color: #fff;
+    font-family: Manrope;
+}
+.vector-for-trips {
+    position: absolute;
+    top: 4213px;
+    left: -9px;
+    width: 1488px;
+    height: 530px;
+}
+.upcoming-events {
+    position: absolute;
+    top: 5247px;
+    left: 560px;
+    font-size: 50px;
+    line-height: 110.6%;
+    font-weight: 500;
+}
+.vector-icon {
+    position: absolute;
+    top: 5299.63px;
+    left: 765.67px;
+    width: 109.16px;
+    height: 13.69px;
+    object-fit: contain;
+}
+.upcoming-event-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 590px;
+    height: 327px;
+}
+.community-welcome-event {
+    position: relative;
+    font-size: 19px;
+    font-weight: 500;
+}
+.event-name-parent {
+    position: absolute;
+    top: 28px;
+    left: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.twitter-space {
+    position: relative;
+    font-size: 15px;
+}
+.venue-parent {
+    position: absolute;
+    top: 89px;
+    left: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.date-parent {
+    position: absolute;
+    top: 145px;
+    left: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.host-parent {
+    position: absolute;
+    top: 206px;
+    left: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.upcoming-event-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px 0px 0px 15px;
+    width: 285px;
+    height: 327px;
+    object-fit: cover;
+}
+.add-to-calendar1 {
+    position: absolute;
+    top: 0px;
+    left: 19px;
+}
+.vuesaxlinearadd-icon {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+}
+.add-to-calendar {
+    position: absolute;
+    top: 275px;
+    left: 299px;
+    width: 106px;
+    height: 16px;
+    text-align: left;
+    color: #184235;
+}
+.upcoming-event {
+    position: absolute;
+    top: 5423px;
+    left: 120px;
+    width: 590px;
+    height: 327px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+}
+.upcoming-event1 {
+    position: absolute;
+    top: 5423px;
+    left: 730px;
+    width: 590px;
+    height: 327px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Manrope;
+}
+.stay-updated-with {
+    position: absolute;
+    top: 5981px;
+    left: 222px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Manrope;
+    text-align: center;
+    display: inline-block;
+    width: 996px;
+    height: 76px;
+}
+.subscibe-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #f0f0e6;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    width: 387px;
+    height: 60px;
+}
+.frame-icon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent {
+    position: absolute;
+    top: 21px;
+    left: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.frame-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #000;
+    width: 115px;
+    height: 60px;
+}
+.subscribe1 {
+    position: absolute;
+    top: 21px;
+    left: 26px;
+    font-weight: 500;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 312px;
+    width: 115px;
+    height: 60px;
+    color: #fff;
+}
+.subscibe {
+    position: absolute;
+    top: 6133px;
+    left: 507px;
+    width: 427px;
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Manrope;
+}
+.footer-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 1440px;
+    height: 268px;
+}
+.features {
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+.about-us-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+    font-size: 14px;
+}
+.frame-group {
+    position: absolute;
+    top: 30px;
+    left: 527px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frame-container {
+    position: absolute;
+    top: 30px;
+    left: 833px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.all-rights-reserved {
+    position: absolute;
+    top: 80.22%;
+    left: 8.4%;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.frame-item {
+    width: 41.11px;
+    position: relative;
+    height: 41.11px;
+}
+.rectangle-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.rectangle-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.capa-2-icon {
+    position: absolute;
+    height: 34.71%;
+    width: 42.07%;
+    top: 32.69%;
+    right: 29.09%;
+    bottom: 32.6%;
+    left: 28.85%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-parent5 {
+    position: absolute;
+    top: 209px;
+    left: 1173px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.footer {
+    position: absolute;
+    top: 6345px;
+    left: 0px;
+    width: 1440px;
+    height: 268px;
+    font-size: 18px;
+    color: #fff;
+    font-family: Manrope;
+}
+.background {
+    position: absolute;
+    top: 4067px;
+    left: 377px;
+    border-radius: 34px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 715px;
+    height: 1067px;
+}
+.get-in-touch-ke-niche-wala {
+    position: absolute;
+    top: 4153px;
+    left: 427px;
+    background-color: #de6e4b;
+    width: 125px;
+    height: 6px;
+}
+.submit-background-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    width: 109px;
+    height: 37px;
+}
+.submit1 {
+    position: absolute;
+    top: 4px;
+    left: 18px;
+    font-weight: 500;
+}
+.submit {
+    position: absolute;
+    top: 968px;
+    left: 0px;
+    width: 161.73px;
+    height: 59.24px;
+    font-size: 20px;
+}
+.background1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 11px;
+    background-color: #959595;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.name13 {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    width: 49px;
+    height: 16px;
+}
+.background-parent {
+    position: absolute;
+    height: 77.27%;
+    width: 100%;
+    top: 22.73%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.name-input-dark-2 {
+    position: absolute;
+    top: 175px;
+    left: 0px;
+    width: 617px;
+    height: 44px;
+}
+.email1 {
+    position: absolute;
+    width: 100%;
+    top: -50%;
+    left: 0%;
+    display: inline-block;
+}
+.email {
+    position: absolute;
+    top: 11px;
+    left: 11.48px;
+    width: 63.13px;
+    height: 12px;
+}
+.background-group {
+    position: absolute;
+    height: 77.27%;
+    width: 143.49%;
+    top: 36.36%;
+    right: -43.49%;
+    bottom: -13.64%;
+    left: 0%;
+}
+.email-input-dark-2 {
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    width: 430px;
+    height: 44px;
+}
+.background3 {
+    position: absolute;
+    height: 94%;
+    width: 143.02%;
+    top: 4.71%;
+    right: -43.02%;
+    bottom: 1.29%;
+    left: 0%;
+    border-radius: 11px;
+    background-color: #959595;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.content {
+    position: absolute;
+    width: 83.72%;
+    top: 14.05%;
+    left: 1.86%;
+    display: inline-block;
+}
+.rectangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border: 20px solid #e24429;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 900px;
+}
+.group-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 60px;
+    object-fit: cover;
+}
+.tropical {
+    margin: 0;
+}
+.tropical-inspire {
+    position: absolute;
+    top: 100px;
+    left: 61px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #e24429;
+}
+.macbook-pro-child {
+    position: absolute;
+    top: 182px;
+    left: 561px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e24429;
+    box-sizing: border-box;
+    width: 318px;
+    height: 50px;
+}
+.macbook-pro-item {
+    position: absolute;
+    top: 732px;
+    left: 561px;
+    border-radius: 25px;
+    background-color: #e24429;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 318px;
+    height: 50px;
+}
+.macbook-pro-inner {
+    position: absolute;
+    top: 282px;
+    left: 561px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    width: 318px;
+    height: 50px;
+}
+.continue {
+    position: absolute;
+    top: 746px;
+    left: 670px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+.description {
+    position: absolute;
+    top: 153px;
+    left: 561px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #e24429;
+}
+.topic {
+    position: absolute;
+    top: 253px;
+    left: 561px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+.colaborators {
+    position: absolute;
+    top: 353px;
+    left: 561px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+.colaborators-can {
+    position: absolute;
+    top: 453px;
+    left: 561px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+.people-can {
+    position: absolute;
+    top: 553px;
+    left: 561px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+.privacy-policy1 {
+    color: #e24429;
+}
+.send-me-updates-container {
+    position: absolute;
+    top: 672px;
+    left: 586px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+}
+.inspiration {
+    position: absolute;
+    top: 197px;
+    left: 577px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #666;
+}
+.vacation {
+    position: absolute;
+    top: 298px;
+    left: 577px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #666;
+}
+.add-more-people {
+    position: absolute;
+    top: 482px;
+    left: 561px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #666;
+}
+.request-to-join {
+    position: absolute;
+    top: 582px;
+    left: 561px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: #666;
+}
+.mask-group-icon7 {
+    position: absolute;
+    top: 382px;
+    left: 561px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.macbook-pro-child1 {
+    position: absolute;
+    top: 395px;
+    left: 852px;
+    width: 24px;
+    height: 24px;
+}
+.macbook-pro-child2 {
+    position: absolute;
+    top: 482px;
+    left: 832px;
+    border-radius: 20px;
+    background-color: #e24429;
+    width: 44px;
+    height: 24px;
+}
+.ellipse {
+    position: absolute;
+    top: 484px;
+    left: 834px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.macbook-pro-child3 {
+    position: absolute;
+    top: 582px;
+    left: 832px;
+    border-radius: 20px;
+    background-color: #e24429;
+    width: 44px;
+    height: 24px;
+}
+.ellipse1 {
+    position: absolute;
+    top: 584px;
+    left: 834px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.macbook-pro-child4 {
+    position: absolute;
+    top: 672px;
+    left: 561px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+}
+.macbook-pro {
+    position: absolute;
+    height: 600%;
+    width: 334.88%;
+    top: -901.95%;
+    right: -732.09%;
+    bottom: 401.95%;
+    left: 497.21%;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 16px;
+    color: #c4c4c4;
+    font-family: 'Abhaya Libre ExtraBold';
+}
+.content-input-dark-2 {
+    position: absolute;
+    top: 370.93px;
+    left: 0px;
+    width: 430px;
+    height: 150px;
+    font-size: 15px;
+}
+.newsletter-signup-dark-child {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+}
+.privacy-policy2 {
+    margin: 0;
+    color: #e24429;
+}
+.i-would-like-container {
+    position: absolute;
+    top: -4px;
+    left: 32px;
+    white-space: pre-wrap;
+}
+.newsletter-signup-dark {
+    position: absolute;
+    top: 908px;
+    left: 1px;
+    width: 339px;
+    height: 28px;
+    font-size: 14px;
+}
+.background4 {
+    position: absolute;
+    height: 3.31%;
+    width: 100%;
+    top: 29.98%;
+    right: 0%;
+    bottom: 66.71%;
+    left: 0%;
+    border-radius: 11px;
+    background-color: #959595;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.get-in-touch {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 52px;
+    font-weight: 600;
+    display: inline-block;
+    width: 475px;
+    height: 63px;
+}
+.left-side {
+    position: absolute;
+    top: 4080px;
+    left: 427px;
+    width: 617px;
+    height: 1027.24px;
+    color: #fff;
+    font-family: Poppins;
+}
+.resume-link- {
+    position: absolute;
+    top: 11.76%;
+    left: 1.3%;
+}
+.background-container {
+    position: absolute;
+    height: 283.33%;
+    width: 1397.73%;
+    top: -83.33%;
+    right: -1279.55%;
+    bottom: -100%;
+    left: -18.18%;
+}
+.email2 {
+    position: absolute;
+    top: 21px;
+    left: 8px;
+    width: 44px;
+    height: 12px;
+}
+.email-input-dark-3 {
+    position: absolute;
+    top: 4628px;
+    left: 427px;
+    width: 430px;
+    height: 44px;
+    color: #fff;
+    font-family: Poppins;
+}
+.github-link {
+    position: absolute;
+    top: -50%;
+    left: 0%;
+}
+.email3 {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    width: 44px;
+    height: 12px;
+}
+.background-parent1 {
+    position: absolute;
+    height: 77.27%;
+    width: 143.02%;
+    top: 6.82%;
+    right: -43.02%;
+    bottom: 15.91%;
+    left: 0%;
+}
+.email-input-dark-4 {
+    position: absolute;
+    top: 4699px;
+    left: 427px;
+    width: 430px;
+    height: 44px;
+    color: #fff;
+    font-family: Poppins;
+}
+.whatsapp-number {
+    position: absolute;
+    width: 11.25%;
+    top: 66.43%;
+    left: 30.28%;
+    font-family: Poppins;
+    color: #fff;
+    display: inline-block;
+}
+.background7 {
+    position: absolute;
+    height: 77.27%;
+    width: 143.49%;
+    top: 18.18%;
+    right: -43.49%;
+    bottom: 4.55%;
+    left: 0%;
+    border-radius: 11px;
+    background-color: #959595;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.kiit-email-id {
+    position: absolute;
+    top: -25%;
+    left: 0%;
+}
+.name15 {
+    position: absolute;
+    top: 19px;
+    left: 8px;
+    width: 49px;
+    height: 16px;
+}
+.name-input-dark-3 {
+    position: absolute;
+    top: 4198px;
+    left: 427px;
+    border-radius: 111px;
+    width: 430px;
+    height: 44px;
+    color: #fff;
+    font-family: Poppins;
+}
+.linkedin-link {
+    position: absolute;
+    top: 14.71%;
+    left: 1.3%;
+}
+.background-parent2 {
+    position: absolute;
+    height: 0.51%;
+    width: 42.71%;
+    top: 72.09%;
+    right: 27.64%;
+    bottom: 27.4%;
+    left: 29.65%;
+    color: #fff;
+    font-family: Poppins;
+}
+.background-parent3 {
+    position: absolute;
+    height: 0.51%;
+    width: 42.71%;
+    top: 73.1%;
+    right: 27.64%;
+    bottom: 26.39%;
+    left: 29.65%;
+    color: #fff;
+    font-family: Poppins;
+}
+.background-parent4 {
+    position: absolute;
+    height: 0.51%;
+    width: 42.71%;
+    top: 74.11%;
+    right: 27.64%;
+    bottom: 25.37%;
+    left: 29.65%;
+    color: #fff;
+    font-family: Poppins;
+}
+.nav-bg {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0%;
+    left: 0%;
+    border-radius: 21px;
+    background-color: #f0f0e6;
+    height: 80px;
+}
+.nomadi-logo-13 {
+    width: 115px;
+    position: relative;
+    height: 28.88px;
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.join-community2 {
+    border-radius: 40px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 32px;
+    font-size: 16px;
+}
+.nav-bar1 {
+    position: absolute;
+    top: 13px;
+    left: 133px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 247px;
+}
+.bg-removed-1 {
+    position: absolute;
+    top: 17px;
+    left: 31px;
+    width: 89px;
+    height: 46px;
+    object-fit: cover;
+}
+.nav-bar {
+    position: absolute;
+    top: 36px;
+    left: 37px;
+    border-radius: 48px;
+    box-shadow: 7px 4px 37.9px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1334px;
+    height: 80px;
+    font-size: 18px;
+    font-family: Manrope;
+}
+.design {
+    width: 100%;
+    position: relative;
+    background-color: #e1f2d0;
+    height: 6613px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Darker Grotesque';
+}
+
