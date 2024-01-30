@@ -51,7 +51,19 @@ nav{
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: #ccc;
+  }
+
+  #recFormHead {
+    font-size: 50;
+    text-align: center;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+
+  #recUnderline {
+    border-bottom: orange;
   }
   
   label {
@@ -75,8 +87,10 @@ nav{
   button{
     background-color: #4CAF50; 
     color: white;
+    margin-left: 50%;
+    margin-top: 2px;
     padding: 10px 20px;
-    border: none;
+    border: 3px solid black;
     border-radius: 3px;
     cursor: pointer;
     transition: transform 250ms, opacity 400ms;
