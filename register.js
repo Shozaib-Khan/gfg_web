@@ -6,6 +6,7 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RA
       form.addEventListener("submit", async (e) => {
         e.preventDefault();
         submitButton.disabled = true;
+        submitButton.innerHTML ="Submitting...";
 
         try {
           const submissionTime = new Date().toLocaleString();
@@ -18,16 +19,19 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RA
           });
 
           if (response.ok) {
+            submitButton.innerHTML ="Submitted";
             alert("Your credentials have been recorded successfully");
             window.location.reload();
             form.reset();
           } else {
             throw new Error("Error recording submission");
+                submitButton.disabled = false;
           }
 
           submitButton.disabled = false;
         } catch (error) {
           console.error("Error!", error.message);
+            submitButton.disabled = false;
         }
       });
 
