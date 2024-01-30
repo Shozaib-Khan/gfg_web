@@ -6,15 +6,41 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Document</title>
+    <style>
+      /* Default styles for the element */
+      .high-size {
+          display: block; /* or inline, flex, etc. */
+      }
+
+      /* Media query to hide the element for a specific screen size or ratio */
+      @media screen and (max-width: 800px) {
+          .high-size {
+              display: none;
+          }
+          .btn1{
+            border: 2px solid black ;
+            border-radius: 2rem;
+            margin-top: 5px;
+          }
+      }
+      @media screen and (min-width: 800px) {
+        .low-size {
+            display: none;
+        }
+    }
+
+
+
+  </style>
 </head>
 <body>
     <!--Nav Bar Abhishek -->
     <section class="head-1">
-    <div class="py-10">
+    <div class="py-10 high-size">
       <nav class="p-5 py-10 mx-5 h-10 md:flex md:items-center md:justify-between">
         <div class="flex justify-between items-center">
           <span class="text-2xl font-[Poppins] cursor-pointer">
-            <img class="h-12 inline" src="./logoB.png" >
+            <img class="h-12 inline" src="./images/logo.svg" >
           </span>
         </div>
           <div>
@@ -23,7 +49,7 @@
                 <a href="#" class="text-xl hover:text-green-500 duration-500">Home</a>
               </li>
               <li class="mx-4 my-4 mid:my-0">
-                <a href="#" class="text-xl hover:text-green-500 duration-500">About Us</a>
+                <a href="#" class="text-xl hover:text-green-500 duration-500">About us</a>
               </li>
               <li class="mx-4 my-4 mid:my-0">
                 <a href="#" class="text-xl hover:text-green-500 duration-500">Events</a>
@@ -38,6 +64,31 @@
           </div>
       </nav>
     </div>
+    <!--For mobile navbar - Sharif-->
+    <div class="py-10 low-size"> 
+      <nav class="p-5 py-10 mx-auto h-50 md:flex md:items-center md:justify-center rounded-lg" style="width:50%;">
+        <div class="flex justify-center items-center">
+          <span class="text-2xl font-[Poppins] cursor-pointer">
+            <img class="h-12 inline" src="./images/logo.svg">
+          </span>
+        </div>
+        <div style="padding:15px">
+          <ul>
+            <li class="p-2"style="text-align:center">Home</li>
+            <li class="p-2" style="text-align:center">About us</li>
+            <li class="p-2" style="text-align:center">Events</li>
+            <li class="p-2" style="text-align:center">Media</li>
+
+          </ul>
+        </div>
+        <div style="text-align:center">
+          <button class="btn1">Join Community</button>
+        </div>
+      </nav>
+      
+    </div>
+    
+    
    
   </section>
 
@@ -54,231 +105,107 @@
 </section>
   
     <!--What Happens at GFG KIIT shalini -->
-
-    <div>
-      <div style="margin: 102px 541px 75px 300px; display: flex; flex-direction: row; width: 500px;"><span style="color: black; font-size: 50px; font-family: Darker Grotesque; font-weight: 500; line-height: 55.30px; word-wrap: break-word">What happens at </span><span style="color: #184235; font-size: 50px; font-family: Darker Grotesque; font-weight: 500; line-height: 55.30px; word-wrap: break-word">GFG</span></div>
-      <div style="display: flex; flex-direction: row;">
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="width: 24px; height: 24px; left: 17.50px; top: 18px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                      <div style="width: 24px; height: 24px; position: relative">
-                          <div style="width: 20px; height: 18.67px; left: 2px; top: 2.66px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 0px; height: 15px; left: 12px; top: 5.49px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 2.25px; height: 0px; left: 5.50px; top: 8.49px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 3px; height: 0px; left: 5.50px; top: 11.49px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 24px; height: 24px; left: 24px; top: 24px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; opacity: 0"></div>
-                      </div>
-                  </div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Open Source Contributions</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Members collaborate on open-source projects, contributing to the broader coding community. This not only hones their coding skills but also allows them to work on meaningful projects with a global impact.</div>
-      </div>
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="width: 24px; height: 24px; left: 17.50px; top: 18px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                      <div style="width: 24px; height: 24px; position: relative">
-                          <div style="width: 19.71px; height: 17.33px; left: 2.29px; top: 3.34px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 0px; height: 13px; left: 8.56px; top: 4px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 0px; height: 13.38px; left: 15.73px; top: 6.62px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 24px; height: 24px; left: 24px; top: 24px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; opacity: 0"></div>
-                      </div>
-                  </div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Coding Workshops</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">College coding societies often host hands-on coding workshops to enhance programming skills. These sessions cover various technologies, providing valuable practical knowledge to students.</div>
-      </div>
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="width: 24px; height: 24px; left: 17.50px; top: 19px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                      <div style="width: 24px; height: 24px; position: relative">
-                          <div style="width: 6.64px; height: 12.52px; left: 15.33px; top: 2px; position: absolute">
-                              <div style="width: 5.16px; height: 5.16px; left: 0px; top: 0px; position: absolute; border: 1.50px #292D32 solid"></div>
-                              <div style="width: 5.03px; height: 5.02px; left: 1.61px; top: 7.50px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          </div>
-                          <div style="width: 6.64px; height: 12.52px; left: 2px; top: 2px; position: absolute">
-                              <div style="width: 5.16px; height: 5.16px; left: 1.48px; top: 0px; position: absolute; border: 1.50px #292D32 solid"></div>
-                              <div style="width: 5.03px; height: 5.02px; left: 0px; top: 7.50px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          </div>
-                          <div style="width: 7.93px; height: 12.53px; left: 8.03px; top: 9.47px; position: absolute">
-                              <div style="width: 5.16px; height: 5.16px; left: 1.30px; top: 0px; position: absolute; border: 1.50px #292D32 solid"></div>
-                              <div style="width: 7.93px; height: 5.02px; left: 0px; top: 7.51px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          </div>
-                          <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute; opacity: 0"></div>
-                      </div>
-                  </div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Tech Talks and Discussions</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Regular tech talks and discussions cover a wide range of topics, from emerging technologies to best coding practices. These sessions encourage knowledge sharing and keep members updated on the dynamic tech landscape.</div>
-      </div>
-     </div>
-     <div style="display: flex; flex-direction: row; margin-top: 50px;">
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="left: 21px; top: 8px; position: absolute; text-align: center; color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">4</div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Opportunities & Resources</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Find your next gig, work, certification, or fellowship. We share opportunities and resources amongst ourselves for career and life growth.</div>
-      </div>
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="width: 24px; height: 24px; left: 17.50px; top: 18px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                      <div style="width: 24px; height: 24px; position: relative">
-                          <div style="width: 20px; height: 20px; left: 2px; top: 2px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 1.46px; height: 18px; left: 7.54px; top: 3px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 1.46px; height: 18px; left: 15px; top: 3px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 18px; height: 1.46px; left: 3px; top: 15px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 18px; height: 1.46px; left: 3px; top: 7.54px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 24px; height: 24px; left: 24px; top: 24px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; opacity: 0"></div>
-                      </div>
-                  </div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Hackathons and Coding Competitions</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Members participate in hackathons and coding competitions, fostering a competitive yet collaborative environment. </div>
-      </div>
-      <div style="width: 100%; height: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-              <div style="width: 59px; height: 59px; position: relative">
-                  <div style="width: 59px; height: 59px; left: 0px; top: 0px; position: absolute; border-radius: 9999px; border: 1px black solid"></div>
-                  <div style="width: 24px; height: 24px; left: 17.50px; top: 18px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-                      <div style="width: 24px; height: 24px; position: relative">
-                          <div style="width: 8.88px; height: 8.87px; left: 7.56px; top: 2px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 13.64px; height: 8.62px; left: 5.34px; top: 13.19px; position: absolute; border: 1.50px #292D32 solid"></div>
-                          <div style="width: 24px; height: 24px; left: 24px; top: 24px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; opacity: 0"></div>
-                      </div>
-                  </div>
-              </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Personal growth</div>
-          </div>
-          <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Grow your audience, following, and authority by engaging and sharing your content with an exclusive group of forward thinkers.</div>
-      </div>
-     </div>
-   </div>
-
-  <!--shalini end -->
-<br>
-<br>
     <!--shozaib form -->
-    <div id="formstart">
     <div id="recForm">
-       
-      <form name="googleSheet" method="post" action="/index.html" >
-        <!-- 
+        <form name="googleSheet" method="post" action="/index.html" >
         <h1 id="recFormHead"><span class="border-b-3" id="recUnderline">Recruitm</span>ent Form</h1>
-        -->
-        <img src="recnew.png" alt="" style="width: 400px; height: 100px;">
 
-        <br>
         <label for="kit-email">KIIT Email</label>
-        <input name="KIIT Email" type="email" id="kit-email" style="color:black;" required>
+        <input name="kiit_email" type="email" id="kit-email" style="color:black;" required>
         
         <br>
 
         <label for="name">Name</label>
-        <input name="Name" type="text" id="name" style="color:black;" required>
+        <input name="name" type="text" id="name" style="color:black;" required>
         
         <br>
       
 
         <label for="whatsapp-number">WhatsApp Number</label>
-        <input name="WhatsApp Number" type="tel" id="whatsapp-number" style="color:black;" required>
+        <input name="number" type="tel" id="whatsapp-number" style="color:black;" required>
         
         <br>
 
         <label for="thoughts">Why should you be a part of GFG KIIT</label>
-        <textarea name="Why" id="thoughts" style="color:black;" required></textarea>
+        <textarea name="thoughts" id="thoughts" style="color:black;" required></textarea>
         
         <br>
 
-        <label for="resume-link" class="mt-3">Resume Link - Drive OneDrive Link (Only for Second Years)</label>
-        <input name="Resume" type="url" id="resume-link" style="color:black;">
+        <label for="resume-link">Resume Link - Drive OneDrive Link</label>
+        <input name="resume_link" type="url" id="resume-link" style="color:black;">
         
         <br>
 
-        <label for="github-link">Github Link (Only for Second Years)</label>
-        <input name="GitHub" type="url" id="github-link" style="color:black;">
+        <label for="github-link">Github Link</label>
+        <input name="git_link" type="url" id="github-link" style="color:black;" required>
         
         <br>
 
-        <label for="linkedin-link">Linkedin Link (Optional)</label>
-        <input name="Linkdin" type="url" id="linkedin-link" style="color:black;" required>
+        <label for="Portfolio-link">Portfolio Link</label>
+        <input name="port_link" type="url" id="Portfolio-link" style="color:black;" required>
         
         <br>
 
-        <label for="domain1" class="mt-1">Select Domain (First Preference)</label>
-        <select name="domain1" id="domain" style="color:black; height:40px;">
+        <label for="personal-link">Personal Website Link</label>
+        <input name="prsnl_link" type="url" id="personal-link" style="color:black;" required>
+        
+        <br>
+
+        <label for="linkedin-link">Linkedin Link</label>
+        <input name="linkdin_url" type="url" id="linkedin-link" style="color:black;" required>
+        
+        <br>
+
+        <label for="domain">Select Domain (First Preference)</label>
+        <select name="domain" id="domain" style="color:black;">
           <option value="na"></option>
-      <option value="WebDev" class="text-gray-900">Web Development</option>
-      <option value="AppDev" class="text-gray-900">Android Development</option>
+      <option value="WebDev" class="text-gray-900">WebDev</option>
+      <option value="AppDev" class="text-gray-900">AppDev</option>
       <option value="CoreDev" class="text-gray-900">CoreDev</option>
-      <option value="Flutter" class="text-gray-900">Flutter Development</option>
-      <option value="BlockChain" class="text-gray-900">Blockchain</option>
-      <option value="gameDev" class="text-gray-900">Game Development</option>
-      <option value="cyber" class="text-gray-900">Cyber Security</option>
-      <option value="AIML" class="text-gray-900">AI/ML/DL</option>
-      <option value="CLOUD" class="text-gray-900">DevOps</option>
-      <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
-      <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
-      <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
-      <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
+      <option value="AIML" class="text-gray-900">AI/ML</option>
+      <option value="CLOUD" class="text-gray-900">CLOUD</option>
+      <option value="Broadcasting" class="text-gray-900">Broadcasting</option>
+      <option value="Content" class="text-gray-900">ContentL</option>
+      <option value="Marketing" class="text-gray-900">Marketing</option>
+      <option value="uiux" class="text-gray-900">UI/UX</option>
       <option value="Administration" class="text-gray-900">Administration</option>
       <option value="cp" class="text-gray-900">Competitive Programming</option>
         </select>
 
         <br>
 
-        <label for="domain2" class="mt-3">Select Domain (Second Preference)</label>
-        <select name="domain2" id="domain" style="color:black; height:40px;">
+        <label for="domain">Select Domain (Second Preference)</label>
+        <select name="domain" id="domain" style="color:black;">
           <option value="na"></option>
-      <option value="WebDev" class="text-gray-900">Web Development</option>
-      <option value="AppDev" class="text-gray-900">Android Development</option>
+      <option value="WebDev" class="text-gray-900">WebDev</option>
+      <option value="AppDev" class="text-gray-900">AppDev</option>
       <option value="CoreDev" class="text-gray-900">CoreDev</option>
-      <option value="Flutter" class="text-gray-900">Flutter Development</option>
-      <option value="BlockChain" class="text-gray-900">Blockchain</option>
-      <option value="gameDev" class="text-gray-900">Game Development</option>
-      <option value="cyber" class="text-gray-900">Cyber Security</option>
-      <option value="AIML" class="text-gray-900">AI/ML/DL</option>
-      <option value="CLOUD" class="text-gray-900">DevOps</option>
-      <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
-      <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
-      <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
-      <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
+      <option value="AIML" class="text-gray-900">AI/ML</option>
+      <option value="CLOUD" class="text-gray-900">CLOUD</option>
+      <option value="Broadcasting" class="text-gray-900">Broadcasting</option>
+      <option value="Content" class="text-gray-900">ContentL</option>
+      <option value="Marketing" class="text-gray-900">Marketing</option>
+      <option value="uiux" class="text-gray-900">UI/UX</option>
       <option value="Administration" class="text-gray-900">Administration</option>
       <option value="cp" class="text-gray-900">Competitive Programming</option>
         </select>
           
         <br>
 
-        <label for="year" class="mt-3">Select Year</label>
-        <select name="Year" id="year" style="color:black; height:40px;">
+        <label for="year">Select Year</label>
+        <select name="year" id="year" style="color:black;">
           <option value="na"></option>
       <option value="1" class="text-gray-900">1st Year</option>
-      <option value="2" class="text-gray-900">2nd Year</option>
+      <option value="2" class="text-gray-900">2nd year</option>
           </select>
           
         <br>
 
-        <div class="container py-2 px-2 mx-0 my-2 mt-4 -mb-4 flex flex-col items-center">
+        <div class="container py-2 px-2 mx-0 my-0 -mb-8 flex flex-col items-center">
           <button type="submit" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-3 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800 items-center">Register</button>
         </div>
         </form>
       </div>
-    </div>
-    <br>
 
         
       <!--Abhishek Past Events-->
@@ -297,8 +224,8 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
-                  <img src="./logo.png" class="h-12 me-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"> GeeksForGeeks</span>
+                  <img src="./images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">GeeksForGeeks</span>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
