@@ -30,3 +30,13 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RA
           console.error("Error!", error.message);
         }
       });
+
+
+ function updateRequirements() {
+        var currentYear = document.getElementById('year').value;
+        if (currentYear = '2') {
+          doccument.getElementById('resume-link').required = true;
+        } else {
+          doccument.getElementById('resume-link').required = false;
+        }
+      }
