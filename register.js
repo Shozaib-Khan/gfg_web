@@ -19,7 +19,7 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RA
           });
 
           if (response.ok) {
-            submitButton.innerHTML ="Submitted";
+            submitButton.innerHTML ="Form Submitted";
             alert("Your credentials have been recorded successfully");
             window.location.reload();
             form.reset();
@@ -28,7 +28,6 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RA
                 submitButton.disabled = false;
           }
 
-          submitButton.disabled = false;
         } catch (error) {
           console.error("Error!", error.message);
             submitButton.disabled = false;
