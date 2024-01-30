@@ -56,50 +56,51 @@
     <!--What Happens at GFG KIIT shalini -->
     <!--shozaib form -->
     <div id="recForm">
+        <form name="googleSheet" method="post"  >
         <h1>Recruitment Form</h1>
 
         <label for="kit-email">KIT Email 10</label>
-        <input type="email" id="kit-email" required>
+        <input name="kiit_email" type="email" id="kit-email" required>
         
         <br>
 
         <label for="name">Name</label>
-        <input type="text" id="name" required>
+        <input name="name" type="text" id="name" required>
         
         <br>
 
         <label for="email">Email</label>
-        <input type="email" id="email" required>
+        <input name="per_email" type="email" id="email" required>
         
         <br>
 
         <label for="whatsapp-number">WhatsApp Number</label>
-        <input type="tel" id="whatsapp-number">
+        <input name="number" type="tel" id="whatsapp-number">
         
         <br>
 
         <label for="thoughts">Why should you be a part of GFG KIIT</label>
-        <textarea id="thoughts"></textarea>
+        <textarea name="thoughts" id="thoughts"></textarea>
         
         <br>
 
         <label for="resume-link">Resume Link - Drive OneDrive Link</label>
-        <input type="url" id="resume-link">
+        <input name="resume_link" type="url" id="resume-link">
         
         <br>
 
         <label for="github-link">Github Link</label>
-        <input type="url" id="github-link">
+        <input name="git_link" type="url" id="github-link">
         
         <br>
 
         <label for="linkedin-link">Linkedin Link</label>
-        <input type="url" id="linkedin-link">
+        <input name="linkdin_url" type="url" id="linkedin-link">
         
         <br>
 
         <label for="domain">Select Domain</label>
-        <select id="domain">
+        <select name="domain" id="domain">
           <option value="option1">Option 1</option>
           <option value="option2">Option 2</option>
         </select>
@@ -107,14 +108,15 @@
         <br>
 
         <label for="year">Select Year</label>
-        <select id="year">
+        <select name="year" id="year">
           <option value="2023">2023</option>
           <option value="2024">2024</option>
           </select>
           
         <br>
 
-        <button>Register</button>
+        <button type="submit">Register</button>
+        </form>
       </div>
       
         
@@ -125,4 +127,5 @@
 <!--Footer (shoziab)-->
 </body>
     <!-- Gaurav (Add script)-->
+    <script src="register.js"></script>
 </html>
