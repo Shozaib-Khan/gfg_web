@@ -1,9 +1,50 @@
-/*
+
 body{
-    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    background-color: #e1f1d0;
+    /* Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif; */
+    background-color: #e1f2d0;
 }
-*/
+
+
+.head-1{
+  background-image: url("./images/bg.png ");
+}
+
+.head-2{
+  background-color: #E1F2D0;
+}
+
+
+nav{
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+
+
+.btn1{
+  border: 2px solid black ;
+  border-radius: 2rem;
+  height:2.5rem;
+  width: 9rem;
+}
+
+@media(max-width:769px){
+
+  nav{
+    border-radius: 0;
+  }
+
+  .btn{
+    width: 27 rem;
+
+  }
+
+  .btn1{
+    z-index: 1;
+    margin-top: 12.5rem;
+  }
+
+}
 
 #recForm {
     width: 500px; 
