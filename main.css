@@ -28,7 +28,7 @@ nav{
   width: 9rem;
 }
 
-@media(max-width:769px){
+@media(max-width:800px){
 
   nav{
     border-radius: 0;
@@ -46,11 +46,8 @@ nav{
 
 }
 
-#formstart{
-  background-image: url("backg.png");
-}
 #recForm {
-    width: 580px; 
+    width: 500px; 
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -61,7 +58,7 @@ nav{
 
   #recFormHead {
     font-size: 50;
-    /*text-align: center;*/
+    text-align: center;
     Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   }
 
@@ -85,7 +82,6 @@ nav{
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 10px;
-    background-color: #959595;
   }
   
   button{
