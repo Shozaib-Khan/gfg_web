@@ -181,3 +181,13 @@ nav{
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+
+.hidden-card {
+  display: none;
+  opacity: 0;
+}
+.visible-card {
+  opacity: 1;
+  transition: opacity 3s ease-in-out; /* Adjust the duration as needed */
+}
