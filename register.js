@@ -1,7 +1,7 @@
 const scriptURL = "https://script.google.com/macros/s/AKfycbyZeq3uT5GbfnNJjk28RArkZlc045pURtB7g0anQ1Ja_FoVUL85ztmE57APyYQ0Dvrszg/exec";
 const form = document.forms["googleSheet"];
 const msg = document.getElementById("msg");
-const submitButton = document.querySelector('button[type="submit"]');
+const submitButton = document.getElementById("register-btn");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -50,21 +50,14 @@ function updateRequirements() {
 }
 
 
-function scroll() {
-  var targetDiv = document.getElementById("formstart");
-  targetDiv.scrollIntoView({
+
+document.getElementById("join-btn").addEventListener("click",() =>{
+  document.getElementById("formstart").scrollIntoView({
     behavior: "smooth"
   });
-}
-
-// let popup = document.getElementById("popUP");
-// console.log(popup);
-
-// function openPOPUP() {
-//   popup.classList.add("openPOPUP");
-// }
-
-// addEventListener('submit', function closePOPUP(){
-//   document.getElementById("popUP").classList.remove("openPOPUP");
-// }
-// )
+})
+document.getElementById("nav-join-btn").addEventListener("click",() =>{
+  document.getElementById("formstart").scrollIntoView({
+    behavior: "smooth"
+  });
+})
