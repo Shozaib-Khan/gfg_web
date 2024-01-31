@@ -174,7 +174,7 @@
                       </div>
                   </div>
               </div>
-              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word; text-align: center;">Hackathons and Coding</div>
+              <div style="color: black; font-size: 32px; font-family: Darker Grotesque; font-weight: 500; word-wrap: break-word">Hackathons and Coding Competitions</div>
           </div>
           <div style="width: 350px; text-align: center; color: black; font-size: 18px; font-family: Inter; font-weight: 300; word-wrap: break-word">Members participate in hackathons and coding competitions, fostering a competitive yet collaborative environment. </div>
       </div>
@@ -199,6 +199,121 @@
    </div>
 
   <!--shalini end -->
+
+  <!-- carousel -->
+
+  
+  <div class="flex overflow-hidden">
+    <div id="cardCarousel" class="flex transition-transform ease-in-out duration-300 transform">
+      <!-- Repeat for all 15 cards -->
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 1</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 2</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 3</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 4</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 5</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 6</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 7</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 8</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div><div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 9</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 10</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 11</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 12</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 13</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 14</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+
+      <div class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+        <h2 class="text-2xl font-semibold mb-2">Card 15</h2>
+        <p class="text-sm">This is a sample description for Card 1. It should be less than 30 words.</p>
+      </div>
+      <!-- ... Repeat for the rest of the cards -->
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to handle carousel functionality
+    let currentIndex = 0;
+
+    function showCards(index) {
+      const cardWidth = document.querySelector('.card').offsetWidth + 8; // considering margin
+      const transformValue = -index * cardWidth + 'px';
+      document.getElementById('cardCarousel').style.transform = 'translateX(' + transformValue + ')';
+    }
+
+    function hideAllCards() {
+      document.querySelectorAll('.card').forEach(card => {
+        card.classList.add('hidden-card');
+        card.classList.remove('visible-card');
+      });
+    }
+
+    function rotateCards() {
+      hideAllCards();
+      currentIndex = (currentIndex + 1) % 15; // Assuming 15 cards
+
+      for (let i = 0; i < 4; i++) {
+        const visibleIndex = (currentIndex + i) % 15;
+        const visibleCard = document.querySelector(`.card:nth-child(${visibleIndex + 1})`);
+        visibleCard.classList.remove('hidden-card');
+        visibleCard.classList.add('visible-card');
+      }
+      showCards(currentIndex);
+
+      if (currentIndex === 0) {
+        // Reset after reaching the last card
+        setTimeout(() => {
+          hideAllCards();
+          showCards(0);
+        }, 5000); // Wait for 5 seconds before starting over
+      }
+    }
+
+    setInterval(rotateCards, 5000); // Change card every 5 seconds
+  </script>
+
+
+
 <br>
 <br>
     <!--shozaib form -->
@@ -308,7 +423,7 @@
       </div>
     </div>
     <div class="popUP " id="popUP">
-        <img src="./images/images (1).png" alt="check_Image">
+        <img src="./images/images (1).png" alt="check_Image" class="">
         <h1>Thank you!</h1>
         <p>Your details have been succesfully recorded. Thanks!</p>
         <button type="submit" class="btn" onclick="closePOPUP()">Ok</button>
