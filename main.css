@@ -5,12 +5,18 @@ body{
 }
 
 
-.head-1{
-  background-image: url("./images/bg.png ");
-}
+
 
 .head-2{
   background-color: #E1F2D0;
+}
+
+.head-2 p{
+  font-size: 15px;
+}
+
+.welcome{
+  font-size: 30px;
 }
 
 
@@ -26,6 +32,20 @@ nav{
   border-radius: 2rem;
   height:2.5rem;
   width: 9rem;
+}
+
+.btn2{
+  height: 2.5rem;
+  border-radius: 2rem;
+  width: 10rem;
+  background-color: black;
+  color:white
+}
+
+.img1{
+  width: 960px;
+  height: 280px;
+  background: url("./images/grp.jpg");
 }
 
 @media(max-width:769px){
