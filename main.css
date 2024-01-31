@@ -48,6 +48,13 @@ nav{
   background: url("./images/grp.jpg");
 }
 
+.past_events{
+  font-weight: bold;
+}
+.events{
+  color: #6fd649;
+}
+
 @media(max-width:769px){
 
   nav{

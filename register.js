@@ -49,6 +49,14 @@ function updateRequirements() {
   }
 }
 
+
+function scroll() {
+  var targetDiv = document.getElementById("formstart");
+  targetDiv.scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
 // let popup = document.getElementById("popUP");
 // console.log(popup);
 
