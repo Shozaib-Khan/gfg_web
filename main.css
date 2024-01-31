@@ -67,8 +67,8 @@ nav{
 }
 
 #formstart{
-  background-image: url("backg.png");
-    background-size: cover;
+  background-image: url("./images/backg.png");
+  background-size: cover;
 }
 #recForm {
     width: 580px; 
