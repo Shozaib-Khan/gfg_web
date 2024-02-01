@@ -158,7 +158,6 @@ nav{
 .popUP img{
   width: 100px;
   margin-top: -15%;
-  margin-left: 25%;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -184,11 +183,13 @@ nav{
 }
 
 
-.hidden-card {
+.hidden-card 
+{
   display: none;
   opacity: 0;
 }
-.visible-card {
+.visible-card 
+{
   opacity: 1;
   transition: opacity 3s ease-in-out; /* Adjust the duration as needed */
 }
