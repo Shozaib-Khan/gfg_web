@@ -78,7 +78,7 @@ nav{
   background-size: cover;
 }
 #recForm {
-    width: 580px; 
+    width: 500px; 
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -193,3 +193,56 @@ nav{
   opacity: 1;
   transition: opacity 3s ease-in-out; /* Adjust the duration as needed */
 }
+
+
+/*
+.carousel .card{
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.carousel .card:hover{
+  background: crimson;
+}
+
+.carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.carousel .card:hover .box{
+  transform: scale(1.05);
+}
+
+.carousel .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0 7px 0;
+}
+
+.carousel .card .box p{
+  color: black;
+}
+
+.carousel .card img{
+  height: 200px;
+  width: 250px;
+  object-fit: fill;
+  border-radius: 5%;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+ .carousel .card:hover img{
+  border-color: #fff;
+}
+
+*/
