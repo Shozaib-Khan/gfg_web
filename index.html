@@ -1,182 +1,194 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <a href="https://www.flaticon.com/free-icons/hackathon" title="hackathon icons"></a>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <a href="https://www.flaticon.com/free-icons/hackathon" title="hackathon icons"></a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-    <title>Document</title>
+  <title>Document</title>
 </head>
+
 <body>
+  <div id="gfg-body">
+    <section class="head-1">
+      <div class="py-10 mx-20">
+        <nav class="bg-white p-4 rounded-lg shadow-md">
+          <div class="container mx-auto flex justify-between items-center">
 
-  <section class="head-1">
-    <div class="py-10 mx-20">
-      <nav class="bg-white p-4 rounded-lg shadow-md">
-        <div class="container mx-auto flex justify-between items-center">
-
-          <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center">
               <span class="text-2xl font-[Poppins] cursor-pointer">
-                <img class="h-12 inline" src="./images/logoB.png" >
+                <img class="h-12 inline" src="./images/logoB.png">
               </span>
             </div>
 
             <div class="hidden md:flex flex-grow justify-center">
-                <a href="#" class="mx-4 hover:text-blue-500">Home</a>
-                <a href="#about" class="mx-4 hover:text-blue-500">About Us</a>
-                <a href="#event" class="mx-4 hover:text-blue-500">Events</a>
-                <a href="#media" class="mx-4 hover:text-blue-500">Media</a>
+              <a href="#" class="mx-4 hover:text-blue-500">Home</a>
+              <a href="#about" class="mx-4 hover:text-blue-500">About Us</a>
+              <a href="#event" class="mx-4 hover:text-blue-500">Events</a>
+              <a href="#media" class="mx-4 hover:text-blue-500">Media</a>
             </div>
 
             <div class="md:hidden">
-                <button id="mobile-menu-btn" class="text-gray-700 focus:outline-none">
-                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
+              <button id="mobile-menu-btn" class="text-gray-700 focus:outline-none">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                  </path>
+                </svg>
+              </button>
             </div>
 
             <div class="hidden md:block">
-                <button class="btn2" id="nav-join-btn" onclick="scrollTo()">Join Community</button>
+              <button class="btn2" id="nav-join-btn" onclick="scrollTo()">Join Community</button>
             </div>
-        </div>
+          </div>
 
-        <div id="mobile-menu"
-            class="md:hidden fixed top-0 left-0 w-full h-full bg-white bg-opacity-90 hidden">
+          <div id="mobile-menu" class="md:hidden fixed top-0 left-0 w-full h-full bg-white bg-opacity-90 hidden">
             <div class="flex justify-end p-4">
-                <button id="close-mobile-menu" class="text-gray-700 focus:outline-none">
-                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
+              <button id="close-mobile-menu" class="text-gray-700 focus:outline-none">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </button>
             </div>
             <div class="flex flex-col items-center">
-                <a href="#" class="hover:text-blue-500 py-2">Home</a>
-                <a href="#about" class="hover:text-blue-500 py-2">About Us</a>
-                <a href="#event" class="hover:text-blue-500 py-2">Events</a>
-                <a href="#media" class="hover:text-blue-500 py-2">Media</a>
+              <a href="#" class="hover:text-blue-500 py-2">Home</a>
+              <a href="#about" class="hover:text-blue-500 py-2">About Us</a>
+              <a href="#event" class="hover:text-blue-500 py-2">Events</a>
+              <a href="#media" class="hover:text-blue-500 py-2">Media</a>
             </div>
-        </div>
-    </nav>
+          </div>
+        </nav>
 
-    <script>
-        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+        <script>
+          document.getElementById('mobile-menu-btn').addEventListener('click', function () {
             document.getElementById('mobile-menu').classList.toggle('hidden');
-        });
+          });
 
-        document.getElementById('close-mobile-menu').addEventListener('click', function () {
+          document.getElementById('close-mobile-menu').addEventListener('click', function () {
             document.getElementById('mobile-menu').classList.add('hidden');
-        });
-    </script>
-    </div>
+          });
+        </script>
+      </div>
 
-    <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center">
         <div class=" main grid grid-cols-1 md:grid-cols-2">
           <div class="py-5 flex items-center justify-center md:py-0">
             <img class="px-5" src="./images/img1.png" width="70%">
           </div>
           <div class="pt-20 mb-12">
-            <img  src="./images/hero.png" width="90%">
+            <img src="./images/hero.png" width="90%">
             <div>
-              <p class="text-right mt-10 mr-12 mb-30">Fueling innovation, excitement, and endless learning - welcome to the vibrant <br> GeeksForGeeks Student Chapter at KIIT, where passion meets proficiency!</p>
+              <p class="text-right mt-10 mr-12 mb-30">Fueling innovation, excitement, and endless learning - welcome to
+                the vibrant <br> GeeksForGeeks Student Chapter at KIIT, where passion meets proficiency!</p>
             </div>
             <div class="flex flex-row-reverse mr-12 my-5">
               <button class="btn2" id="join-btn" onclick="scrollTo()">Join Community</button>
             </div>
           </div>
         </div>
-        
-      </div>
-   
-  </section>
 
-<br>
-<br>
+      </div>
+
+    </section>
+
+    <br>
+    <br>
     <section id="media" class="head-2">
-        <div class="flex items-center justify-center">
-          <h2 class="welcome">Welcome to <b>GeeksForGeeks</b></h2>
-        </div>
-        <div class="flex items-center justify-center p-2">
-          <p class="text-center p-5">At GeeksForGeeks Student Chapter, KIIT, we're more than just a community; we're a vibrant hub where innovation, collaboration, and continuous learning <br> converge to empower tomorrow's leaders. Through workshops, events, and shared passions, we cultivate an environment where members thrive, grow, and shape the future of technology</p>
-        </div>
-        <div class="flex items-center justify-center py-5 pb-20">
-          <img class="h-auto max-w-full rounded-lg" src="./images/img2.jpg" alt="image description">
-        </div>
-  </section>
-  
+      <div class="flex items-center justify-center">
+        <h2 class="welcome">Welcome to <b>GeeksForGeeks</b></h2>
+      </div>
+      <div class="flex items-center justify-center p-2">
+        <p class="text-center p-5">At GeeksForGeeks Student Chapter, KIIT, we're more than just a community; we're a
+          vibrant hub where innovation, collaboration, and continuous learning <br> converge to empower tomorrow's
+          leaders. Through workshops, events, and shared passions, we cultivate an environment where members thrive,
+          grow,
+          and shape the future of technology</p>
+      </div>
+      <div class="flex items-center justify-center py-5 pb-20">
+        <img class="h-auto max-w-full rounded-lg" src="./images/img2.jpg" alt="image description">
+      </div>
+    </section>
+
     <!--What Happens at GFG KIIT shalini -->
-  <div id="about">
-    <div class="bg-white">
-      <h1 class="text-center text-5xl not-italic pt-8">What happens at<span><b style="color: green;"> GFG</b></span></h1>
-      <div class="flex justify-center items-center">
+    <div id="about">
+      <div class="bg-white">
+        <h1 class="text-center text-5xl not-italic pt-8">What happens at<span><b style="color: green;"> GFG</b></span>
+        </h1>
+        <div class="flex justify-center items-center">
           <div class="grid grid-cols-2 b-0 text-center my-10 md:grid-cols-3 ">
-              <div class="part mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/git.svg" width="25%" class="mx-5">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:text-3xl">Open Source Contributions </p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+            <div class="part mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/git.svg" width="25%" class="mx-5">
               </div>
-              <div class="part  mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/data.png" width="25%">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:3xl">Coding Workshops</p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+              <p class="mt-5 mb-10 text-lg font-medium md:text-3xl">Open Source Contributions </p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
+            <div class="part  mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/data.png" width="25%">
               </div>
-              <div class="part  mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/message.png" width="25%">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:3xl">Tech Talks and Discussion</p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+              <p class="mt-5 mb-10 text-lg font-medium md:3xl">Coding Workshops</p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
+            <div class="part  mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/message.png" width="25%">
               </div>
-              <div class="part  mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/teamwork.png" width="25%">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:3xl">Opportunities & Resources</p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+              <p class="mt-5 mb-10 text-lg font-medium md:3xl">Tech Talks and Discussion</p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
+            <div class="part  mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/teamwork.png" width="25%">
               </div>
-              <div class="part  mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/hackathon.png" width="25%">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:3xl">Hackathons and Coding Competitions</p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+              <p class="mt-5 mb-10 text-lg font-medium md:3xl">Opportunities & Resources</p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
+            <div class="part  mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/hackathon.png" width="25%">
               </div>
-              <div class="part  mx-10 my-10">
-                  <div class="flex justify-center items-center">
-                      <img src="./images/increase.png" width="25%">
-                  </div>
-                  <p class="mt-5 mb-10 text-lg font-medium md:3xl">Personal growth</p>
-                  <p>Members collaborate on open-source projects, contributing to the broader coding community. This not only 
-                  hones their coding skills but also allows them to work on meaningful projects with a global impact.
-                  </p>
+              <p class="mt-5 mb-10 text-lg font-medium md:3xl">Hackathons and Coding Competitions</p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
+            <div class="part  mx-10 my-10">
+              <div class="flex justify-center items-center">
+                <img src="./images/increase.png" width="25%">
               </div>
+              <p class="mt-5 mb-10 text-lg font-medium md:3xl">Personal growth</p>
+              <p>Members collaborate on open-source projects, contributing to the broader coding community. This not
+                only
+                hones their coding skills but also allows them to work on meaningful projects with a global impact.
+              </p>
+            </div>
           </div>
 
+        </div>
+
       </div>
-          
     </div>
-  </div>
-  
+
 
     <!-- <div id="about" style="background-color: whitesmoke;">
       <br>
@@ -294,121 +306,192 @@
    <br>
    </div> -->
 
-  <!--shalini end -->
+    <!--shalini end -->
 
-  <!-- carousel -->
-<br>
-<br>
- 
-<div class="flex overflow-hidden">
-  <div id="cardCarousel" class="flex transition-transform ease-in-out duration-300 transform">
-    <!-- Repeat for all 15 cards -->
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Web Development</h2>
-      <p class="text-sm">Unlock the secrets of web wizardry! Immerse yourself in the captivating universe of web development and discover the art of crafting user-friendly experiences. Become part of a vibrant community. Make connections with like-minded web developers to exchange knowledge and work together on fascinating projects.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Android Development</h2>
-      <p class="text-sm">Think Big, Think Mobile. Master Android Dev and turn your ideas into pocket-sized reality. 
-        It's a community that extends beyond coding. Learn, share, and grow alongside other Android enthusiasts.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Core Development</h2>
-      <p class="text-sm">Architect the backbone of innovation! Conquer algorithms, wield data structures, and unleash your programming prowess. Craft the code that fuels everything and ignite your full programming potential.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Flutter Development</h2>
-      <p class="text-sm">Flutter into the spotlight! Command cross-platform enchantment, sculpt mesmerizing apps, and sync up with Flutter aficionados. It's not just coding; it's a rhythm of innovation. Amplify your skills, surf the wave of creativity, and become the virtuoso of mobile magic!</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Blockchain</h2>
-      <p class="text-sm">Step into the realm of Blockchain, where the secrets of this groundbreaking technology await your discovery. Enlist in the Blockchain Domain to delve into decentralized app construction, become a master of smart contract creation, and pioneer groundbreaking advancements in decentralized finance and beyond.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Game Development</h2>
-      <p class="text-sm"> Immerse yourself in the art of crafting captivating gaming experiences.,Collaborate with fellow enthusiasts to transform ideas into interactive realities,  from concept to code. Elevate your skills, unleash your creativity, and join us in shaping the future of game development!</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">CyberSecurity</h2>
-      <p class="text-sm">Crave adrenaline rush? Yearn to be a digital knight in shining armor? Dive into the Cybersecurity Domain! Master the art of ethical hacking, craft unbreakable defenses, and join a thriving community of cyber guardians. Every line of code you write builds a stronger, more secure tomorrow.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">AI/ML/DL</h2>
-      <p class="text-sm">Escape the monotony of ordinary coding! Level up in the AI/ML/DL realm, where machines grow and adapt with each code. Explore the data landscape, shape the future of intelligent tools, and join the story where human innovation converges with machine sophistication.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">DevOps</h2>
-      <p class="text-sm">Embrace the unity of DevOps! Work closely with developers and operators, coordinate flawless releases, and take on the role of a conductor in the symphony of software. From code to cloud, weave the threads of automation. Become the DevOps architect, crafting bridges between development and operationsp.
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Broadcasting</h2>
-      <p class="text-sm">Through the lens of creativity and storytelling, our broadcasting team captures the essence of our society. From candid moments to compelling narratives, we immortalize the vibrant spirit and share our journey with the world.
+    <!-- carousel -->
+    <br>
+    <br>
 
+    <div class="flex overflow-hidden">
+      <div id="cardCarousel" class="flex transition-transform ease-in-out duration-300 transform">
+        <!-- Repeat for all 15 cards -->
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Web
+            Development</h2>
+          <p class="text-sm">Unlock the secrets of web wizardry! Immerse yourself in the captivating universe of web
+            development and discover the art of crafting user-friendly experiences. Become part of a vibrant community.
+            Make connections with like-minded web developers to exchange knowledge and work together on fascinating
+            projects.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Android
+            Development</h2>
+          <p class="text-sm">Think Big, Think Mobile. Master Android Dev and turn your ideas into pocket-sized reality.
+            It's a community that extends beyond coding. Learn, share, and grow alongside other Android enthusiasts.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Core
+            Development</h2>
+          <p class="text-sm">Architect the backbone of innovation! Conquer algorithms, wield data structures, and
+            unleash
+            your programming prowess. Craft the code that fuels everything and ignite your full programming potential.
+          </p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Flutter
+            Development</h2>
+          <p class="text-sm">Flutter into the spotlight! Command cross-platform enchantment, sculpt mesmerizing apps,
+            and
+            sync up with Flutter aficionados. It's not just coding; it's a rhythm of innovation. Amplify your skills,
+            surf
+            the wave of creativity, and become the virtuoso of mobile magic!</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Blockchain</h2>
+          <p class="text-sm">Step into the realm of Blockchain, where the secrets of this groundbreaking technology
+            await
+            your discovery. Enlist in the Blockchain Domain to delve into decentralized app construction, become a
+            master
+            of smart contract creation, and pioneer groundbreaking advancements in decentralized finance and beyond.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Game
+            Development</h2>
+          <p class="text-sm"> Immerse yourself in the art of crafting captivating gaming experiences.,Collaborate with
+            fellow enthusiasts to transform ideas into interactive realities, from concept to code. Elevate your skills,
+            unleash your creativity, and join us in shaping the future of game development!</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            CyberSecurity</h2>
+          <p class="text-sm">Crave adrenaline rush? Yearn to be a digital knight in shining armor? Dive into the
+            Cybersecurity Domain! Master the art of ethical hacking, craft unbreakable defenses, and join a thriving
+            community of cyber guardians. Every line of code you write builds a stronger, more secure tomorrow.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            AI/ML/DL
+          </h2>
+          <p class="text-sm">Escape the monotony of ordinary coding! Level up in the AI/ML/DL realm, where machines grow
+            and adapt with each code. Explore the data landscape, shape the future of intelligent tools, and join the
+            story where human innovation converges with machine sophistication.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">DevOps
+          </h2>
+          <p class="text-sm">Embrace the unity of DevOps! Work closely with developers and operators, coordinate
+            flawless
+            releases, and take on the role of a conductor in the symphony of software. From code to cloud, weave the
+            threads of automation. Become the DevOps architect, crafting bridges between development and operationsp.
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Broadcasting</h2>
+          <p class="text-sm">Through the lens of creativity and storytelling, our broadcasting team captures the essence
+            of our society. From candid moments to compelling narratives, we immortalize the vibrant spirit and share
+            our
+            journey with the world.
+
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Marketing</h2>
+          <p class="text-sm">With strategic flair and creative zest, our marketing team crafts engaging campaigns and
+            secures key sponsorships, making our events unforgettable and our community stronger than ever.
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Content
+            Creation</h2>
+          <p class="text-sm">Tech demystified! Join the content writing domain where tech meets creativity.Every phrase,
+            a
+            key that unlocks understanding, every sentence, a path to progress. Write the way forward, one word at a
+            time!
+          </p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">UI/UX
+          </h2>
+          <p class="text-sm">Elevate your design game with our UI/UX community! From beginners to pros, we've got you
+            covered. Join us and let's create beautiful and intuitive user interfaces together!</p>
+        </div>
+        <div
+          style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke; width: 350px;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style=" text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Competitive Programming</h2>
+          <p class="text-sm">Feel the adrenaline rush! Sharpen your logic, Compete in thrilling challenges, climb the
+            coding ranks, and conquer algorithms. Challenge yourself against brilliant minds, break code barriers, and
+            taste victory in the heart-pounding arena of Competitive Programming.</p>
+        </div>
+        <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;"
+          class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
+          <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">
+            Administration</h2>
+          <p class="text-sm">The glue that holds the society together (without the mess)! Unleash your inner
+            organizational ninja in the Admin domain! tame spreadsheets, wrangle deadlines, and ensure every event is a
+            blast. Join the Admin domain and be the silent heroes who make everything run smoothly.</p>
+        </div>
+
+        <!-- ... Repeat for the rest of the cards -->
+      </div>
     </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Marketing</h2>
-      <p class="text-sm">With strategic flair and creative zest, our marketing team crafts engaging campaigns and secures key sponsorships, making our events unforgettable and our community stronger than ever.
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Content Creation</h2>
-      <p class="text-sm">Tech demystified! Join the content writing domain where tech meets creativity.Every phrase, a key that unlocks understanding, every sentence, a path to progress. Write the way forward, one word at a time!</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">UI/UX</h2>
-      <p class="text-sm">Elevate your design game with our UI/UX community! From beginners to pros, we've got you covered. Join us and let's create beautiful and intuitive user interfaces together!</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke; width: 350px;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style=" text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Competitive Programming</h2>
-      <p class="text-sm">Feel the adrenaline rush! Sharpen your logic, Compete in thrilling challenges, climb the coding ranks, and conquer algorithms. Challenge yourself against brilliant minds, break code barriers, and taste victory in the heart-pounding arena of Competitive Programming.</p>
-    </div>
-    <div style="border: 5px solid whitesmoke; border-radius: 5px; height: 250px; background-color: whitesmoke;" class="card bg-olive-green w-1/4 p-4 mx-2 rounded-lg hidden-card">
-      <h2 style="text-align: center; border-bottom: 2px solid darkgreen;" class="text-2xl font-semibold mb-2">Administration</h2>
-      <p class="text-sm">The glue that holds the society together (without the mess)! Unleash your inner organizational ninja in the Admin domain! tame spreadsheets, wrangle deadlines, and ensure every event is a blast. Join the Admin domain and be the silent heroes who make everything run smoothly.</p>
-    </div>
-    
-    <!-- ... Repeat for the rest of the cards -->
-  </div>
-</div>
 
-<script>
-  // JavaScript to handle carousel functionality
-  let currentIndex = 0;
+    <script>
+      // JavaScript to handle carousel functionality
+      let currentIndex = 0;
 
-  function showCards(index) {
-    const cardWidth = document.querySelector('.card').offsetWidth + 8; // considering margin
-    const transformValue = -index * cardWidth + 'px';
-    document.getElementById('cardCarousel').style.transform = 'translateX(' + transformValue + ')';
-  }
+      function showCards(index) {
+        const cardWidth = document.querySelector('.card').offsetWidth + 8; // considering margin
+        const transformValue = -index * cardWidth + 'px';
+        document.getElementById('cardCarousel').style.transform = 'translateX(' + transformValue + ')';
+      }
 
-  function hideAllCards() {
-    document.querySelectorAll('.card').forEach(card => {
-      card.classList.add('hidden-card');
-      card.classList.remove('visible-card');
-    });
-  }
+      function hideAllCards() {
+        document.querySelectorAll('.card').forEach(card => {
+          card.classList.add('hidden-card');
+          card.classList.remove('visible-card');
+        });
+      }
 
-  function rotateCards() {
-    hideAllCards();
-    currentIndex = (currentIndex + 1) % 15; // Assuming 15 cards
+      function rotateCards() {
+        hideAllCards();
+        currentIndex = (currentIndex + 1) % 15; // Assuming 15 cards
 
-    for (let i = 0; i < 4; i++) {
-      const visibleIndex = (currentIndex + i) % 15;
-      const visibleCard = document.querySelector(`.card:nth-child(${visibleIndex + 1})`);
-      visibleCard.classList.remove('hidden-card');
-      visibleCard.classList.add('visible-card');
-    }
-    showCards(currentIndex);
+        for (let i = 0; i < 4; i++) {
+          const visibleIndex = (currentIndex + i) % 15;
+          const visibleCard = document.querySelector(`.card:nth-child(${visibleIndex + 1})`);
+          visibleCard.classList.remove('hidden-card');
+          visibleCard.classList.add('visible-card');
+        }
+        showCards(currentIndex);
 
-    if (currentIndex === 0) {
-      // Reset after reaching the last card
-      showCards(0);
-    }
-  }
+        if (currentIndex === 0) {
+          // Reset after reaching the last card
+          showCards(0);
+        }
+      }
 
-  setInterval(rotateCards, 5000); // Change card every 5 seconds
-</script>
-  
- <!-- 
+      setInterval(rotateCards, 5000); // Change card every 5 seconds
+    </script>
+
+    <!-- 
   <div class="carousel owl-carousel">
     <div class="card" data-aos="fade-down" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
         <div class="box">
@@ -485,239 +568,252 @@
 -->
 
 
-<br>
-<br>
+    <br>
+    <br>
 
     <!-- shozaib form -->
     <div id="formstart">
-    <div id="recForm" class="w-2/3 lg:w-3/5">
-       
-      <form name="googleSheet" method="post" action="/index.html" >
-       
-        <img src="./images/rec.png" alt="" style="width: 400px; height: 100px;">
+      <div id="recForm" class="w-2/3 lg:w-3/5">
 
-        <br>
-        <label for="kit-email">KIIT Email</label>
-        <input name="KIIT Email" type="email" id="kit-email" style="color:black;" required>
-        
-        <br>
+        <form name="googleSheet" method="post" action="/index.html">
 
-        <label for="name">Name</label>
-        <input name="Name" type="text" id="name" style="color:black;" required>
-        
-        <br>
-      
+          <img src="./images/rec.png" alt="" style="width: 400px; height: 100px;">
 
-        <label for="whatsapp-number">WhatsApp Number</label>
-        <input name="WhatsApp Number" type="tel" id="whatsapp-number" style="color:black;" required>
-        
-        <br>
+          <br>
+          <label for="kit-email">KIIT Email</label>
+          <input name="KIIT Email" type="email" id="kit-email" style="color:black;" required>
 
-        <label for="thoughts">Why should you be a part of GFG KIIT</label>
-        <textarea name="Why" id="thoughts" style="color:black;" required></textarea>
-        
-        <br>
+          <br>
 
-        <label for="resume-link" class="mt-3">Resume Link - Drive OneDrive Link (Only for Second Years)</label>
-        <input name="Resume" type="url" id="resume-link" style="color:black;">
-        
-        <br>
+          <label for="name">Name</label>
+          <input name="Name" type="text" id="name" style="color:black;" required>
 
-        <label for="github-link">Github Link (Only for Second Years)</label>
-        <input name="GitHub" type="url" id="github-link" style="color:black;">
-        
-        <br>
+          <br>
 
-        <label for="linkedin-link">Linkedin Link (Optional)</label>
-        <input name="Linkdin" type="url" id="linkedin-link" style="color:black;">
-        
-        <br>
 
-        <label for="domain1" class="mt-1">Select Domain (First Preference)</label>
-        <select name="domain1" id="domain" style="color:black; height:40px;" required>
-          <option value="na"></option>
-      <option value="WebDev" class="text-gray-900">Web Development</option>
-      <option value="AppDev" class="text-gray-900">Android Development</option>
-      <option value="CoreDev" class="text-gray-900">CoreDev</option>
-      <option value="Flutter" class="text-gray-900">Flutter Development</option>
-      <option value="BlockChain" class="text-gray-900">Blockchain</option>
-      <option value="gameDev" class="text-gray-900">Game Development</option>
-      <option value="cyber" class="text-gray-900">Cyber Security</option>
-      <option value="AIML" class="text-gray-900">AI/ML/DL</option>
-      <option value="CLOUD" class="text-gray-900">DevOps</option>
-      <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
-      <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
-      <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
-      <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
-      <option value="Administration" class="text-gray-900">Administration</option>
-      <option value="cp" class="text-gray-900">Competitive Programming</option>
-        </select>
+          <label for="whatsapp-number">WhatsApp Number</label>
+          <input name="WhatsApp Number" type="tel" id="whatsapp-number" style="color:black;" required>
 
-        <br>
+          <br>
 
-        <label for="domain2" class="mt-3">Select Domain (Second Preference)</label>
-        <select name="domain2" id="domain" style="color:black; height:40px;">
-          <option value="na"></option>
-      <option value="WebDev" class="text-gray-900">Web Development</option>
-      <option value="AppDev" class="text-gray-900">Android Development</option>
-      <option value="CoreDev" class="text-gray-900">CoreDev</option>
-      <option value="Flutter" class="text-gray-900">Flutter Development</option>
-      <option value="BlockChain" class="text-gray-900">Blockchain</option>
-      <option value="gameDev" class="text-gray-900">Game Development</option>
-      <option value="cyber" class="text-gray-900">Cyber Security</option>
-      <option value="AIML" class="text-gray-900">AI/ML/DL</option>
-      <option value="CLOUD" class="text-gray-900">DevOps</option>
-      <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
-      <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
-      <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
-      <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
-      <option value="Administration" class="text-gray-900">Administration</option>
-      <option value="cp" class="text-gray-900">Competitive Programming</option>
-        </select>
-          
-        <br>
+          <label for="thoughts">Why should you be a part of GFG KIIT</label>
+          <textarea name="Why" id="thoughts" style="color:black;" required></textarea>
 
-        <label for="year" class="mt-3">Select Year</label>
-        <select name="Year" id="year" style="color:black; height:40px;" required>
-          <option value="na"></option>
-      <option value="1" class="text-gray-900">1st Year</option>
-      <option value="2" class="text-gray-900">2nd Year</option>
+          <br>
+
+          <label for="resume-link" class="mt-3">Resume Link - Drive OneDrive Link (Only for Second Years)</label>
+          <input name="Resume" type="url" id="resume-link" style="color:black;">
+
+          <br>
+
+          <label for="github-link">Github Link (Only for Second Years)</label>
+          <input name="GitHub" type="url" id="github-link" style="color:black;">
+
+          <br>
+
+          <label for="linkedin-link">Linkedin Link (Optional)</label>
+          <input name="Linkdin" type="url" id="linkedin-link" style="color:black;">
+
+          <br>
+
+          <label for="domain1" class="mt-1">Select Domain (First Preference)</label>
+          <select name="domain1" id="domain" style="color:black; height:40px;" required>
+            <option value="na"></option>
+            <option value="WebDev" class="text-gray-900">Web Development</option>
+            <option value="AppDev" class="text-gray-900">Android Development</option>
+            <option value="CoreDev" class="text-gray-900">CoreDev</option>
+            <option value="Flutter" class="text-gray-900">Flutter Development</option>
+            <option value="BlockChain" class="text-gray-900">Blockchain</option>
+            <option value="gameDev" class="text-gray-900">Game Development</option>
+            <option value="cyber" class="text-gray-900">Cyber Security</option>
+            <option value="AIML" class="text-gray-900">AI/ML/DL</option>
+            <option value="CLOUD" class="text-gray-900">DevOps</option>
+            <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
+            <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
+            <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
+            <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
+            <option value="Administration" class="text-gray-900">Administration</option>
+            <option value="cp" class="text-gray-900">Competitive Programming</option>
           </select>
-          
-        <br>
 
-        <div class="container py-2 px-2 mx-0 my-2 mt-4 -mb-4 flex flex-col items-center">
-          <button type="submit" id="register-btn" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-3 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800 items-center">Register</button>
-        </div>
+          <br>
+
+          <label for="domain2" class="mt-3">Select Domain (Second Preference)</label>
+          <select name="domain2" id="domain" style="color:black; height:40px;">
+            <option value="na"></option>
+            <option value="WebDev" class="text-gray-900">Web Development</option>
+            <option value="AppDev" class="text-gray-900">Android Development</option>
+            <option value="CoreDev" class="text-gray-900">CoreDev</option>
+            <option value="Flutter" class="text-gray-900">Flutter Development</option>
+            <option value="BlockChain" class="text-gray-900">Blockchain</option>
+            <option value="gameDev" class="text-gray-900">Game Development</option>
+            <option value="cyber" class="text-gray-900">Cyber Security</option>
+            <option value="AIML" class="text-gray-900">AI/ML/DL</option>
+            <option value="CLOUD" class="text-gray-900">DevOps</option>
+            <option value="Broadcasting" class="text-gray-900">Broadcasting (Creatives)</option>
+            <option value="Content" class="text-gray-900">Content Writing (Creatives)</option>
+            <option value="Marketing" class="text-gray-900">Marketing (Creatives)</option>
+            <option value="uiux" class="text-gray-900">UI/UX (Creatives)</option>
+            <option value="Administration" class="text-gray-900">Administration</option>
+            <option value="cp" class="text-gray-900">Competitive Programming</option>
+          </select>
+
+          <br>
+
+          <label for="year" class="mt-3">Select Year</label>
+          <select name="Year" id="year" style="color:black; height:40px;" required>
+            <option value="na"></option>
+            <option value="1" class="text-gray-900">1st Year</option>
+            <option value="2" class="text-gray-900">2nd Year</option>
+          </select>
+
+          <br>
+
+          <div class="container py-2 px-2 mx-0 my-2 mt-4 -mb-4 flex flex-col items-center">
+            <button type="submit" id="register-btn"
+              class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-3 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:ring-green-800 items-center">Register</button>
+          </div>
         </form>
       </div>
     </div>
-    <div class="popUP " id="popUP">
-        <img src="./images/images (1).png" alt="check_Image" class="">
-        <h1>Thank you!</h1>
-        <p>Your details have been succesfully recorded. Thanks!</p>
-        <button type="submit" class="btn" onclick="closePOPUP()">Ok</button>
-        <script>
-        function closePOPUP(){
-            document.getElementById("popUP").classList.remove("openPOPUP");
-        }
-        </script>
-    </div>
     <br>
 
-        
-      <!--Abhishek Past Events-->
-        <div id="event" class="text-center my-10 ">
-         <div>
-          <h1 class="text-3xl past_events">Past <span class="events">Events</span></h1>
-         </div>
-         <div class=" main grid grid-cols-1 md:grid-cols-2 mx-10 my-10 mb-20">
-            <div class="mx-5 my-5 lg:mx-20 lg:pl-5">
-              <a href="https://gfgkiit.netlify.app/Events" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/relay.jpg" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal ml-2">
-                    <p class="text-xs">Event name</p>
-                    <h5>RelayThon</h5>
-                    <p class="text-xs">Venue</p>
-                    <h5>Campus-14</h5>
-                    <p class="text-xs">Date</p>
-                    <h5>14th Jan</h5>
-                </div>
-            </a>
+
+    <!--Abhishek Past Events-->
+    <div id="event" class="text-center my-10 ">
+      <div>
+        <h1 class="text-3xl past_events">Past <span class="events">Events</span></h1>
+      </div>
+      <div class=" main grid grid-cols-1 md:grid-cols-2 mx-10 my-10 mb-20">
+        <div class="mx-5 my-5 lg:mx-20 lg:pl-5">
+          <a href="https://gfgkiit.netlify.app/Events"
+            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+              src="./images/relay.jpg" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal ml-2">
+              <p class="text-xs">Event name</p>
+              <h5>RelayThon</h5>
+              <p class="text-xs">Venue</p>
+              <h5>Campus-14</h5>
+              <p class="text-xs">Date</p>
+              <h5>14th Jan</h5>
             </div>
-            <div class="mx-5 my-5 -pr-200 lg:mx-20">
-              <a href="https://gfgkiit.netlify.app/Events" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/gptpy.jpg" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal ml-8">
-                  <p class="text-xs">Event name</p>
-                    <h5>GPT-Py</h5>
-                    <p class="text-xs">Venue</p>
-                    <h5>Campus-14</h5>
-                    <p class="text-xs">Date</p>
-                    <h5>16th April</h5>
-                </div>
-            </a>
-            </div>
-         </div>
+          </a>
         </div>
-
-
-
-        <!--Footer (shoziab)-->
-
-        
-
-        <footer id="forHrefFooter" class="bg-gray-900">
-          <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-              <div class="md:flex md:justify-between">
-                <div class="mb-6 md:mb-0">
-                    <a href="https://flowbite.com/" class="flex items-center">
-                        <img src="./images/logoW.png" class="h-12 me-3" alt="FlowBite Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"> GeeksForGeeks</span>
-                    </a>
-                </div>
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
-                  <div>
-                    <h2 class="mb-6 text-sm font-semibold uppercase text-white">Contact Us</h2>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                        <li class="mb-4">
-                            <a href="#forHrefFooter" class="hover:underline">Email: gfgkiit@gmail.com</a>
-                        </li>
-                        <li>
-                            <a href="#forHrefFooter" class="hover:underline">Phone: +91 78548 39144</a>
-                        </li>
-                    </ul>
-                </div>
-                    <div class="-mr-10 w-20">
-                        <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                            <li class="mb-4">
-                                <a href="https://www.instagram.com/gfg_kiit/" class="hover:underline ">Instagram</a>
-                            </li>
-                            <li>
-                                <a href="https://discord.gg/DyvM88eH6h" class="hover:underline">Discord</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    
-                </div>
+        <div class="mx-5 my-5 -pr-200 lg:mx-20">
+          <a href="https://gfgkiit.netlify.app/Events"
+            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+              src="./images/gptpy.jpg" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal ml-8">
+              <p class="text-xs">Event name</p>
+              <h5>GPT-Py</h5>
+              <p class="text-xs">Venue</p>
+              <h5>Campus-14</h5>
+              <p class="text-xs">Date</p>
+              <h5>16th April</h5>
             </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="index.html" class="hover:underline">GeeksForGeeks Student Chapter KIIT™</a>. All Rights Reserved.
-                </span>
-                <div class="flex mt-4 sm:justify-center sm:mt-0">
-                    <a href="https://www.instagram.com/gfg_kiit/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white mr-2">
-                      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                        <span class="sr-only">Instagram page</span>
-                    </a>
-                    <a href="https://discord.gg/DyvM88eH6h" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5  mr-2">
-                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                              <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-                          </svg>
-                        <span class="sr-only">Discord community</span>
-                    </a>
-                    <a href="https://www.linkedin.com/company/geeksforgeeks-kiit" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5 mr-2">
-                      <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" d="M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z" clip-rule="evenodd"/>
-                        <path d="M7.2 8.8H4v10.7h3.2V8.8Z"/>
-                      </svg>  
-                        
-                        <span class="sr-only">Linkedin page</span>
-                    </a>
-                    
-                    
-                </div>
-            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--Footer (shoziab)-->
+
+
+
+    <footer id="forHrefFooter" class="bg-gray-900">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center">
+              <img src="./images/logoW.png" class="h-12 me-3" alt="FlowBite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"> GeeksForGeeks</span>
+            </a>
           </div>
-      </footer>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+            <div>
+              <h2 class="mb-6 text-sm font-semibold uppercase text-white">Contact Us</h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#forHrefFooter" class="hover:underline">Email: gfgkiit@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#forHrefFooter" class="hover:underline">Phone: +91 78548 39144</a>
+                </li>
+              </ul>
+            </div>
+            <div class="-mr-10 w-20">
+              <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="https://www.instagram.com/gfg_kiit/" class="hover:underline ">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://discord.gg/DyvM88eH6h" class="hover:underline">Discord</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="index.html"
+              class="hover:underline">GeeksForGeeks Student Chapter KIIT™</a>. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="https://www.instagram.com/gfg_kiit/"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white mr-2">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd"></path>
+              </svg>
+              <span class="sr-only">Instagram page</span>
+            </a>
+            <a href="https://discord.gg/DyvM88eH6h"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5  mr-2">
+              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                viewBox="0 0 21 16">
+                <path
+                  d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+              </svg>
+              <span class="sr-only">Discord community</span>
+            </a>
+            <a href="https://www.linkedin.com/company/geeksforgeeks-kiit"
+              class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5 mr-2">
+              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                viewBox="0 0 24 24">
+                <path fill-rule="evenodd"
+                  d="M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z"
+                  clip-rule="evenodd" />
+                <path d="M7.2 8.8H4v10.7h3.2V8.8Z" />
+              </svg>
+
+              <span class="sr-only">Linkedin page</span>
+            </a>
+
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="popUP " id="popUP">
+    <img src="./images/images (1).png" alt="check_Image" class="">
+    <h1><b>Thank you!</b></h1>
+    <p>Your details have been succesfully recorded. Thanks!</p>
+    <button type="submit" class="btn" onclick="closePOPUP()">Ok</button>
+  </div>
 
 </body>
-    <!-- Gaurav (Add script)-->
-    <script src="register.js"></script>
+
+
+<!-- Gaurav (Add script)-->
+<script src="register.js"></script>
+
 </html>

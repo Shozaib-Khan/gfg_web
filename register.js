@@ -8,7 +8,7 @@ form.addEventListener("submit", async (e) => {
   submitButton.disabled = true;
   submitButton.innerHTML = "Submitting...";
   submitButton.style.backgroundColor = "yellow";
-  submitButton.style.color="black";
+  submitButton.style.color = "black";
 
   try {
     const submissionTime = new Date().toLocaleString();
@@ -24,9 +24,10 @@ form.addEventListener("submit", async (e) => {
       submitButton.innerHTML = "Form Submitted";
       window.scrollTo({
         top: 0,
-        behavior: 'auto' 
+        behavior: 'auto'
       });
-      setInterval(document.getElementById("popUP").classList.add("openPOPUP"),1500)
+      setInterval(document.getElementById("gfg-body").style.filter="blur(15px)", 1000)
+      setInterval(document.getElementById("popUP").classList.add("openPOPUP"), 1000)
       form.reset();
     } else {
       throw new Error("Error recording submission");
@@ -40,6 +41,12 @@ form.addEventListener("submit", async (e) => {
 });
 
 
+function closePOPUP() {
+  document.getElementById("popUP").classList.remove("openPOPUP");
+  document.getElementById("gfg-body").style.filter = "";
+}
+
+
 function updateRequirements() {
   var currentYear = document.getElementById('year').value;
   if (currentYear = '2') {
@@ -51,12 +58,12 @@ function updateRequirements() {
 
 
 
-document.getElementById("join-btn").addEventListener("click",() =>{
+document.getElementById("join-btn").addEventListener("click", () => {
   document.getElementById("formstart").scrollIntoView({
     behavior: "smooth"
   });
 })
-document.getElementById("nav-join-btn").addEventListener("click",() =>{
+document.getElementById("nav-join-btn").addEventListener("click", () => {
   document.getElementById("formstart").scrollIntoView({
     behavior: "smooth"
   });
