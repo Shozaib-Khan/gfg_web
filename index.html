@@ -16,13 +16,13 @@
     <div class="py-10 mx-20">
       <nav class="bg-white p-4 rounded-lg shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-            <!-- Logo -->
-            <div class="flex justify-between items-center">
+
+          <div class="flex justify-between items-center">
               <span class="text-2xl font-[Poppins] cursor-pointer">
                 <img class="h-12 inline" src="./images/logoB.png" >
               </span>
             </div>
-            <!-- Navbar Links (hidden on mobile) -->
+
             <div class="hidden md:flex flex-grow justify-center">
                 <a href="#" class="mx-4 hover:text-blue-500">Home</a>
                 <a href="#about" class="mx-4 hover:text-blue-500">About Us</a>
@@ -30,7 +30,6 @@
                 <a href="#media" class="mx-4 hover:text-blue-500">Media</a>
             </div>
 
-            <!-- Mobile Menu Button -->
             <div class="md:hidden">
                 <button id="mobile-menu-btn" class="text-gray-700 focus:outline-none">
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -46,7 +45,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu (hidden by default) -->
         <div id="mobile-menu"
             class="md:hidden fixed top-0 left-0 w-full h-full bg-white bg-opacity-90 hidden">
             <div class="flex justify-end p-4">
@@ -68,12 +66,10 @@
     </nav>
 
     <script>
-        // Toggle mobile menu
         document.getElementById('mobile-menu-btn').addEventListener('click', function () {
             document.getElementById('mobile-menu').classList.toggle('hidden');
         });
 
-        // Close mobile menu
         document.getElementById('close-mobile-menu').addEventListener('click', function () {
             document.getElementById('mobile-menu').classList.add('hidden');
         });
@@ -616,7 +612,7 @@
           <h1 class="text-3xl past_events">Past <span class="events">Events</span></h1>
          </div>
          <div class=" main grid grid-cols-1 md:grid-cols-2 mx-10 my-10 mb-20">
-            <div class="mx-5 my-5 lg:mx-20 lg:pl-20">
+            <div class="mx-5 my-5 lg:mx-20 lg:pl-5">
               <a href="https://gfgkiit.netlify.app/Events" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-sm hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="./images/relay.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal ml-2">
