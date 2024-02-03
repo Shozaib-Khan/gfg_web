@@ -77,6 +77,10 @@ nav{
     margin-top: 12.5rem;
   }
 
+    .part p:nth-child(3){
+    display: none;
+  }
+
 }
 
 #formstart{
