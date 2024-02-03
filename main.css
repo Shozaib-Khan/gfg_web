@@ -80,6 +80,10 @@ nav{
     .part p:nth-child(3){
     display: none;
   }
+    
+    .front-div div:nth-child(1){
+    display: none;
+  }
 
 }
 
