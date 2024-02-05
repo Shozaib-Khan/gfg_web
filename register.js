@@ -58,13 +58,20 @@ function updateRequirements() {
 
 
 
-document.getElementById("join-btn").addEventListener("click", () => {
+function scroll_to_form() {
   document.getElementById("formstart").scrollIntoView({
     behavior: "smooth"
   });
-})
-document.getElementById("nav-join-btn").addEventListener("click", () => {
-  document.getElementById("formstart").scrollIntoView({
+}
+
+function scroll_to_about() {
+    document.getElementById("about").scrollIntoView({
+      behavior: "smooth"
+    })
+}
+
+function scroll_to_event(){
+  document.getElementById("event").scrollIntoView({
     behavior: "smooth"
-  });
-})
+  })
+}
